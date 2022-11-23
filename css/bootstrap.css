@@ -1427,7 +1427,9 @@ figure {
 }
 
 img {
-    vertical-align: middle
+    vertical-align: middle;
+    
+
 }
 
 .carousel-inner>.item>a>img,
@@ -1435,8 +1437,8 @@ img {
 .img-responsive,
 .thumbnail a>img,
 .thumbnail>img {
-    display: block;
-    max-width: 100%;
+    
+    max-width: 90%;
     height: auto
 }
 
@@ -2012,7 +2014,7 @@ pre code {
 
 .row {
     margin-right: -15px;
-    margin-left: -15px
+    margin-left: -15px;
 }
 
 .col-lg-1,
@@ -2066,7 +2068,8 @@ pre code {
     position: relative;
     min-height: 1px;
     padding-right: 15px;
-    padding-left: 15px
+    padding-left: 15px;
+    
 }
 
 .col-xs-1,
